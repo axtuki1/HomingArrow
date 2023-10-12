@@ -1,0 +1,9 @@
+name: HomingArrow
+version: '${project.version}'
+main: io.github.axtuki1.homingarrow.HomingArrow
+commands:
+  hmb:
+    permission: HomingArrow.admin
+permissions:
+  HomingArrow.admin:
+    default: op
